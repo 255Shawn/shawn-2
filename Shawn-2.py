@@ -72,19 +72,93 @@
 # else:
 #     print "Line 3 - a is not available in the given list"
 
+####------------------------------------------------------------start-----------------#
+#
+# num = 4
+# chat = 8
+#
+# #print r'C:\\nowhere', r"\n\n", "the end", "\n\n"
+#
+# str1 = "this is string example....wow!!!";
+# str2 = "exam";
+#
+# print str1.find(str2)
+# print str1.find(str2, 10)
+# print str1.find(str2, 40)
 
-num = 4
-chat = 8
-while (num <= 9):
-   print 'The count is:', num
-   num = num + 2
 
-   while (chat < 9):
-       print "the value of chat is first " , chat
-       chat = chat + 3
-       print "yes too"
-       print "the value of chat is second " , chat
-print "Good bye!"
+# list1 = ['physics', 'chemistry', 1997, 2000];
+# list2 = [1, 2, 3, 4, 5, 6, 7 ];
+#
+# print "list1[0]: ", list1[0]
+# print "list2[1:5]: ", list2[1:5]
 
 
-print "Hello Nancy"
+list = ['physics', 'chemistry', 1997, 2000];
+
+print "Value available at index 2 : "
+print list[2]
+list[2] = 2099999;
+print "New value available at index 2 : "
+print list[2]
+
+list44=[1,2,3,4,5,5,5,5,5,5,56,5,5,5,5,5,5]
+var97=max(list)
+
+
+print "listcount is: ", list44.count(list44)
+
+
+#print "answer is: ", var97
+
+
+
+# print "My name is %s and weight is %d kg!" % ('Zara', 21)
+#
+# varpara_str = 'this is a long string that is made up of [ \\n' \
+#               '' \
+#               '' \
+#               'several lines and non-printable characters such as ( \\t )'
+#
+# v2='and they will show up that way when displayed. NEWLINEs within the string, whether explicitly given likethis within the brackets'
+#
+#
+# v3=                   '[ \\n ], or just a NEWLINE within'
+# #the variable assignment will also show up.
+# #'
+#
+#
+#
+#
+# var1 = 1
+# var2 = 10
+# var3 = 11
+# var4 = 12
+# topvar = 9999
+# var5 = long(var2)
+# var1 = 'Hello World!'
+# var2 = "Python Programming"
+# var9 = "abcdefg"
+# print "var9[1:5]: ", var9[1:5]
+# var11 = var2 + "\n" + var9
+# print var11
+#
+# print "Today the variable value: ", var1[0]
+# print "var2[1:5]: ", var2[1:5]
+#
+#
+#
+# while (num <= 59):
+#    print 'The count is:', num
+#    num = num + 9
+#
+#    while (chat < 19):
+#        print "the value of chat is first " , chat
+#        chat = chat + 5
+#        print "yes too"
+#        print "the value of chat is second " , chat
+# print "Good bye!"
+#
+# del var3, var4
+# # del is delete
+# print "Hello Nancy"
